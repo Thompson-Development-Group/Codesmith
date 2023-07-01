@@ -1,5 +1,5 @@
 {
-  "name": "codesmith",
+  "name": "@tylerthompson/codesmith",
   "version": "0.1.0",
   "description": "CodeSmith is a Single File Code (SFC) Executor that runs package-free node scripts",
   "main": "index.js",
@@ -15,11 +15,11 @@
     "prepublishOnly": "git push origin --follow-tags"
   },
   "bin": {
-    "codesmith": "./cli.js"
+    "codesmith": "cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Thompson-Development-Group/Codesmith"
+    "url": "git+https://github.com/Thompson-Development-Group/Codesmith.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/thompsondevgroup"
@@ -37,5 +37,12 @@
   },
   "engines": {
     "node": ">=12.18.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Thompson-Development-Group/Codesmith/issues"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {}
 }
