@@ -1,5 +1,5 @@
 {
-  "name": "@tylerthompson/codesmith",
+  "name": "codesmith",
   "version": "0.1.0",
   "description": "CodeSmith is a Single File Code (SFC) Executor that runs package-free node scripts",
   "main": "index.js",
