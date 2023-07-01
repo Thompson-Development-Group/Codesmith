@@ -21,9 +21,6 @@
     "type": "git",
     "url": "git+https://github.com/Thompson-Development-Group/Codesmith.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/tylerthompson"
-  },
   "author": "Tyler Thompson <tyler@thompsondevgroup.com>",
   "license": "MIT",
   "homepage": "https://github.com/Thompson-Development-Group/Codesmith",
