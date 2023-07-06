@@ -9,7 +9,7 @@
     "parser"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "preversion": "npm test",
     "postversion": "npm publish --access public",
     "prepublishOnly": "git push origin --follow-tags"
@@ -28,6 +28,7 @@
     "chokidar": "^3.4.2",
     "commander": "^6.1.0",
     "comment-parser": "^0.7.6",
+    "np": "^8.0.4",
     "npm": "^9.7.2",
     "process.argv": "^0.1.0",
     "update-notifier": "^6.0.2"
@@ -40,6 +41,5 @@
   },
   "directories": {
     "example": "examples"
-  },
-  "devDependencies": {}
+  }
 }
