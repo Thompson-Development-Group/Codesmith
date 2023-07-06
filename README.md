@@ -29,7 +29,7 @@ It supports `--watch` for your development-phase things.
 Use your terminal to install sfc as a globally available package.
 
 ```bash
-npm i codesmith -g
+npm i @tylerthompson/codesmith -g
 ```
 
 ## Cli usage
