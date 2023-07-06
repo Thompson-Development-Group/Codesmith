@@ -1,5 +1,5 @@
 {
-  "name": "codesmith",
+  "name": "@tylerthompson/codesmith",
   "version": "0.1.0",
   "description": "CodeSmith is a Single File Code (SFC) Executor that runs package-free node scripts",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preversion": "npm test",
-    "postversion": "npm publish",
+    "postversion": "npm publish --access public",
     "prepublishOnly": "git push origin --follow-tags"
   },
   "bin": {
